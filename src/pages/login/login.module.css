@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1em;
+}
+.login__form input {
+  padding: 0.5em 2em;
+  background-color: #fff;
+  border-radius: 5px;
+  border:1px solid #7B7D7D ;
+}
+.login__form button {
+  padding: 0.6em 7.2em;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+  border:none;
+  cursor: pointer;
+}
+.login__form button:disabled {
+  background-color: #7B7D7D;
+}
